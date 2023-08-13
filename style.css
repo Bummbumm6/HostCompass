@@ -44,8 +44,12 @@ button.discord {
     border-radius: 2rem;
     border: 0.3rem solid white;
     position:relative;
+    cursor: pointer;
   }
-  
+
+.discord_a {
+    text-decoration: none;
+}
   
 
 footer {
@@ -59,7 +63,7 @@ footer {
 footer p {
     text-align: center;
     color: white;
-    font-size: 25px;
+    font-size: 18px;
     font-family: 'Rubik';
 }
   
@@ -68,8 +72,8 @@ footer p a {
 }
 
 img {
-    width: 192px;
+    width: 20vh;
     position:fixed;
     top: 0;
-    left: calc(50% - 96px);
+    left: calc(50% - 10vh);
 }
