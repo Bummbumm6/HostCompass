@@ -84,7 +84,7 @@ img.logo {
 img.discord_svg {
     position: absolute;
     display: inline;
-    width: 2%;
+    width: 2rem;
 }
 
 header.header {
@@ -106,7 +106,7 @@ header.header {
 .headertext {
     display: inline;
     top: 69%;
-    margin: 3.25%;
+    margin: 3rem;
 }
 
 .dc {
