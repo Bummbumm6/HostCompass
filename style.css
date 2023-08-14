@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
 
 body.main {
-    background: linear-gradient(-45deg, indigo,blue);
+    background: linear-gradient(-45deg, indigo, rgb(76, 0, 255));
 }
 
 p.title {
-    letter-spacing: -7.5;
+    letter-spacing: -8.5;
     margin-top: 20vh;
     text-align: center;
     width: 100%;
     color: white;
     font-size: 800%;
+    line-height: 100%;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -28,7 +29,7 @@ p.desc {
 button.discord {
     position: absolute;
     left: 50%;
-    top: 0;
+    bottom: 100;
     transform: translate(-50%, 0);
     display: flex;
     justify-content: center;
@@ -38,7 +39,7 @@ button.discord {
     width: 9em;
     color: white;
     height: 6rem;
-    font-size: 250%;
+    font-size: 3vw;
     font-family: 'Rubik', sans-serif;
     background-color:darkslateblue;
     border-radius: 2rem;
@@ -49,6 +50,7 @@ button.discord {
 
 .discord_a {
     text-decoration: none;
+    color: white;
 }
   
 
@@ -67,13 +69,47 @@ footer p {
     font-family: 'Rubik';
 }
   
-footer p a {
+footer p a.idk {
     color:lightskyblue;
 }
 
-img {
-    width: 20vh;
-    position:fixed;
+img.logo {
+    width: 5rem;
+    position: absolute;
     top: 0;
-    left: calc(50% - 10vh);
+    left: calc(50% - 5rem / 2);
+    background-color: indigo;
+}
+
+img.discord_svg {
+    position: absolute;
+    display: inline;
+    width: 2%;
+}
+
+header.header {
+    display: inline;
+    background-color: indigo;
+    right:0;
+    width: 100%;
+    position:absolute;
+    top: 0;
+    text-align: left;
+    left: 0px;
+    margin-bottom: 10%;
+    color: white;
+    font: 400;
+    font-family: 'Rubik';
+    font-size: 1.5rem;
+}
+
+.headertext {
+    display: inline;
+    top: 69%;
+    margin: 3.25%;
+}
+
+.dc {
+    margin: 1%;
+    text-decoration: none;
 }
